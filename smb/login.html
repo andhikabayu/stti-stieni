@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Copied from https://sekolahppdb.rinookta.com/smb/login by Cyotek WebCopy 1.8.0.652, 13 October 2020, 17:58:23 -->
+  <head>
+    <title>SEKOLAH TINGGI TEKNOLOGI INDONESIA & STIE NASIONAL INDONESIA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:title" content="Login Siswa">
+    <meta property="og:description" content="SMKN 77 Nganjuk Sekolah Terakreditasi A Yang Berkualitas Siap Berdaya Saing Global">
+    <meta property="og:image" content="https://sekolahppdb.rinookta.com/file/logo/1600945611_d12c940714276ad549f2.png">
+    <script type="text/javascript">
+      var baseurl= "https://sekolahppdb.rinookta.com";
+    </script>
+    <link rel="icon" href="../file/logo/1600646551_b38e1cf007f862f6ae9a.png" type="image/x-icon">
+    <link rel="stylesheet" href="../components/base/base.css">
+    <script src="../components/base/core.min.js"></script>
+    <script src="../components/base/script.js"></script>
+    <script src="../assets/js/jquery-1.12.1.min.js"></script>
+    <link rel="stylesheet" href="../components/paging/css/style.css"> <!-- Resource style -->
+    <link href="../assets/libs/bootstrap-sweetalert/sweetalert.min.css" rel="stylesheet">
+    <script src="../assets/libs/bootstrap-sweetalert/sweetalert.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="../components/release/featherlight.min.css">
+    <script src="../components/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+      .lightbox { display: none; }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <!--RD Navbar-->
+      <header class="section rd-navbar-wrap" data-preset='{"title":"Navbar Default","category":"header","reload":true,"id":"navbar-default"}'>
+        <nav class="rd-navbar" data-rd-navbar='{"responsive":{"1200":{"stickUpOffset":"50px"}}}'>
+          <div class="navbar-container">
+            <div class="navbar-cell">
+              <div class="navbar-panel">
+                <button class="navbar-switch novi-icon custom-font-menu" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
+                <div class="navbar-logo"><a class="navbar-logo-link" href="../index.htm">
+                  <img class="navbar-logo-inverse" src="../file/logo/logo-kampus.png" alt="Teachzy" style='width: 65px; height: 55px;'></a></div>
+              </div>
+            </div>
+            <div class="navbar-spacer"></div>
+            <div class="navbar-cell navbar-sidebar">
+              <ul class="navbar-navigation rd-navbar-nav">
+                
+                <li class="navbar-navigation-root-item"><a target="_self" class="navbar-navigation-root-link" href="../index.htm">Home</a>
+                </li>
+                <li class="navbar-navigation-root-item"><a target="_self" class="navbar-navigation-root-link" href="#">Profil Kampus</a>
+                  <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Kembali</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a target="_self" class="navbar-navigation-dropdown-link" href="../page/visi-misi.html">Visi Misi</a>
+                    </li>
+                    <!-- <li class="navbar-navigation-dropdown-item"><a target="_self" class="navbar-navigation-dropdown-link" href="page/sambutan-kepsek.html">Sambutan Kepsek</a> -->
+                    </li>
+                  </ul>
+                </li>
+                <li class="navbar-navigation-root-item"><a target="_self" class="navbar-navigation-root-link" href="../acara.html">Acara</a>
+                </li>
+                <li class="navbar-navigation-root-item"><a target="_self" class="navbar-navigation-root-link" href="../artikel.html">Artikel</a>
+                </li>
+                <li class="navbar-navigation-root-item"><a target="_self" class="navbar-navigation-root-link" href="../page/vokasi.html">Vokasi</a>
+                </li>
+                <!-- <li class="navbar-navigation-root-item"><a target="_self" class="navbar-navigation-root-link" href="#">Akademik</a>
+                  <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
+                    <li class="navbar-navigation-back">
+                      <button class="navbar-navigation-back-btn">Kembali</button>
+                    </li>
+                    <li class="navbar-navigation-dropdown-item"><a target="_self" class="navbar-navigation-dropdown-link" href="page/vokasi.html">Vokasi</a>
+                    </li>
+                  </ul>
+                </li> -->
+                <li class="navbar-navigation-root-item"><a target="_self" class="navbar-navigation-root-link" href="../kontak.html">Kontak</a>
+                </li>
+                <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link-smb" href="login.html">SMB</a>
+                </li>              </ul>
+            </div>
+            <div class="navbar-spacer"></div>
+            <div class="navbar-cell">
+              <div class="navbar-subpanel">
+                <div class="navbar-subpanel-item">
+                  <div class="navbar-search">
+                    <div class="navbar-search-container">
+                      <form class="navbar-search-form" action="https://sekolahppdb.rinookta.com/search" method="GET">
+                        <input class="navbar-search-input" type="text" placeholder="Cari Artikel.." autocomplete="off" name="q">
+                        <button class="navbar-search-btn custom-font-search novi-icon"></button>
+                         <button class="navbar-search-close search-switch custom-font-close novi-icon" type="button" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-search-active","isolate":"[data-multi-switch]:not(.search-switch)"}'></button>
+                      </form>
+                    </div>
+                  </div>
+                  <button class="navbar-button search-switch custom-font-search" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-search-active","isolate":"[data-multi-switch]:not(.search-switch)"}'></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+            <section class="section breadcrumb-section">
+        <div class="container">
+          <!-- Breadcrumb-->
+          <div class="breadcrumb">
+            <div class="breadcrumb-inner">
+              <div class="breadcrumb-item"><a class="breadcrumb-link" href="../index.htm">Home</a></div>
+              <div class="breadcrumb-item"><span class="breadcrumb-text breadcrumb-active">SMB</span></div>
+              <div class="breadcrumb-item"><span class="breadcrumb-text breadcrumb-active">Login Mahasiswa</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-md bg-transparent">
+        <div class="container">
+          <div class="text-block text-block-1 text-center">
+            <h4>Login Mahasiswa Baru</h4>
+          </div>
+          <div class="row row-30 justify-content-center">
+            <div class="col-md-4">
+                            Baca Petunjuk SMB <a href="javascript:;" data-featherlight="#fl1">Disini</a>
+              <form class="rd-form" method="post" action="https://sekolahppdb.rinookta.com/ppdb/authlogin">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="username" placeholder="Username*" required="" data-constraints="@Required">
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="password" name="password" placeholder="Password*" required="" data-constraints="@Required">
+                </div>
+                <br>
+                <div class="rd-form-btn text-center">
+                  <button class="btn btn-primary btn-block">Login</button>
+                </div>
+                <p class="text-center">Daftar Mahasiswa Baru <a href="daftar.html">Disini</a></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="lightbox" id="fl1">
+        <b>Berikut Petunjuk Penerimaan Mahasiswa Baru :</b>
+        <ul>
+          <li>1. Silahkan ke menu <b>Daftar</b> atau klik <a href="daftar.html">Disini.</a></li>
+          <li>2. Jika sudah punya akun silahkan login <a href="login.html">Disini.</a></li>
+          <li>3. Isikan biodata anda dengan benar dan pastikan email bisa menerima inbox/spam berisi detail akun anda.</li>
+          <li>4. Klik daftar dan tunggu beberapa saat sampai pendaftaran berhasil dan anda akan diarahkan ke halaman profil.</li>
+          <li>5. Lengkapi biodata anda supaya Panitia (Admin) cepat mengkonfirmasi.</li>
+          <li>6. Tunggu sampai anda dikonfirmai dan akan mendapatkan inbox ke email anda.</li>
+          <li>7. Silahkan cetak formulir pendaftaran dengan cara login dengan username password anda.</li>
+          <li>8. Setelah mendownload/mencetak formulir, bawa formulir tersebut ke Pihak Panitia SMB sesuai tanggal yang ditentukan.</li>
+          <li>9. Ada pertanyaan silahkan klik <a href="../kontak.html">Disini.</a></li>
+        </ul>
+      </div>
+      <!-- Footer default-->
+      <footer class="section footer">
+        <div class="footer-top bg-300">
+          <div class="container">
+            <div class="row row-30">
+              <div class="col-xs-6 col-md-3">
+                <h5 class="footer-title">Kontak Kami</h5>
+                <ul class="list list-icons">
+                  <li class="list-item">
+                    <div class="list-icon custom-font-pin"></div><a class="link link-inherit" href="#">Kampus STTI-STIENI : Jl. Matraman No. 3-5-7 Jakarta Timur 13150</a>
+                  </li>
+                  <li class="list-item">
+                    <div class="list-icon custom-font-email"></div><a class="link link-inherit" href="mailto:stti-stieni@email.com">stti-stieni@email.com</a>
+                  </li>
+                  <li class="list-item">
+                    <div class="list-icon custom-font-phone"></div><span><span>Telepon: </span><a class="link link-inherit" href="tel628001234000.html">628001234000</a></span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5 class="footer-title">Sosial Media</h5>
+                <ul class="list list-sm">
+                  <li class="list-item"><a class="link link-inherit" href="../rinookta.html">Facebook</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="https://instagram.com/rinookta">Instagram</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="../rinookta-1.html">Twitter</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="https://youtube.com/rinookta">YouTube</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5 class="footer-title">Menu Utama</h5>
+                <ul class="list list-sm">
+                  <li class="list-item"><a class="link link-inherit" href="../index.htm">Home</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="../acara.html">Acara</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="../artikel.html">Artikel</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="../kontak.html">Kontak</a></li>
+                                    <li class="list-item"><a class="link link-inherit" href="login.html">SMB</a></li>
+                                  </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5 class="footer-title">Jurusan</h5>
+                <ul class="list list-sm">
+                  <li class="list-item"><a class="link link-inherit" href="#">Manajemen (S-1)</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">Akuntansi (S-1)</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">Teknik Mesin (S-1))</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">Teknik Elektro (S-1)</a></li>
+                  <li class="list-item"><a class="link link-inherit" href="#">Teknik Informatika (S-1)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom bg-700 context-dark text-center">
+          <div class="container">
+                  <!-- Copyright-->
+                  <p class="rights"><span>&copy; STTI-STIENI 2020&nbsp;</span></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Preloader-->
+    <div class="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+        <div class="preloader-dot"></div>
+      </div>
+    </div>
+  </body>
+<!-- Copied from https://sekolahppdb.rinookta.com/smb/login by Cyotek WebCopy 1.8.0.652, 13 October 2020, 17:58:23 -->
+</html>
